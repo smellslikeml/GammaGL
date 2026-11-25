@@ -1,6 +1,7 @@
 from .heat_conv import HEATlayer
 from .message_passing import MessagePassing
 from .gcn_conv import GCNConv
+from .het_gcn_conv import HetGCNConv
 from .gat_conv import GATConv
 from .gaan_conv import GaANConv
 from .sgc_conv import SGConv
@@ -40,6 +41,7 @@ from .coed_conv import CoEDConv
 __all__ = [
     'MessagePassing',
     'GCNConv',
+    'HetGCNConv',
     'GATConv',
     'GaANConv',
     'SGConv',
